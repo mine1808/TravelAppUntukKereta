@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D84315"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Order">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order Travel App"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:id="@+id/btnTanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih Tanggal" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
+
+    <Spinner
+        android:id="@+id/spinFrom"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FFECB3"
+        android:entries="@array/strAFrom"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
+
+    <Spinner
+        android:id="@+id/spinPlan"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FFECB3"
+        android:entries="@array/strAPlan"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
+
+    <Spinner
+        android:id="@+id/spinClass"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FFECB3"
+        android:entries="@array/strAClass"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/edtQty"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FFF9C4"
+        android:ems="10"
+        android:hint="Harga"
+        android:inputType="number" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/edtHarga"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FFF9C4"
+        android:ems="10"
+        android:hint="Qty"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnCekHarga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cek Harga" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/edtTotal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FFF9C4"
+        android:ems="10"
+        android:hint="Total"
+        android:inputType="number" />
+
+
+</LinearLayout>

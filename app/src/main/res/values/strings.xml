@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Travel App Untuk Kereta</string>
+    <string-array name="strAFrom">
+        <item>Pilih</item>
+        <item>Jakarta</item>
+        <item>Bandung</item>
+
+    </string-array>
+
+    <string-array name="strAPlan">
+        <item>Pilih</item>
+        <item>Jakarta</item>
+        <item>Bandung</item>
+
+    </string-array>
+
+    <string-array name="strAClass">
+        <item>Pilih</item>
+        <item>Ekonomi</item>
+        <item>Bisnis</item>
+    </string-array>
+</resources>
